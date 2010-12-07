@@ -3,6 +3,16 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.3'
 gem 'mysql', '2.8.1'
 
+group :test do
+  gem "rspec", "2.2.0"
+  gem "rspec-rails", "2.2.1"
+  gem "factory_girl", "1.3.2"
+  gem "faker", "0.3.1"
+  gem "mocha", "0.9.9"
+  gem "cucumber", "0.9.3"
+  gem "cucumber-rails", "0.3.2"
+end
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
